@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #FFFFFF;
+}
+
+.container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 18px 80px 18px 80px; 
+  
+
+}
+
+.flexItem01{
+  display:flex;
+  align-items:center;
+  
+  
+}
+
+#logo{
+}
+
+#textoLogo{
+  align-items:center;
+  margin-left: 8px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  
+
+}
+
+.flexItem02{
+  
+}
+
+a{
+  text-decoration: none;
+  margin: 28px 32px 28px 32px;
+  color:Gray;
+  
+}
+.flexItem03{
+  
+}
+
+#entrar{
+  border:none;
+  background:none;
+  margin-right:30px ;
+  color:Gray;
+}
+
+#cadastrar{
+  padding: 10px 18px 10px 18px;
+  background:#8E2424;
+  color: #FFFFFF;
+  border-radius:8px;
+  border:none;
+}
