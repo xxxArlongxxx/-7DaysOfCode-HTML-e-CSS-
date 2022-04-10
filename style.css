@@ -11,7 +11,8 @@ body{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding: 18px 80px 18px 80px; 
+  margin: 18px 80px 18px 80px; 
+
   
 
 }
@@ -64,4 +65,50 @@ a{
   color: #FFFFFF;
   border-radius:8px;
   border:none;
+}
+
+.sectionBox{
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 407px;
+  left: 0px;
+  top: 80px;
+  border-radius: 0px;
+  padding: 96px, 0px, 96px, 0px;
+}
+
+#sectionBox01{
+  margin-bottom: 24px;
+  color: #8E2424;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 24px;
+
+
+}
+
+#sectionBox02{
+  margin-bottom: 36px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #101828;
+  text-align: center;
+
+}
+
+#sectionBox03{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  max-width: 791px;
+  color:#667085;
+
 }
