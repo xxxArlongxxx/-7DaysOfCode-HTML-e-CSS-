@@ -24,9 +24,9 @@
       </span>
       <span class="flexItem03">
         <button id="entrar" type="button">Entrar</button>
-        <button id="cadastrar" type="button">Cadastrar</button>
+        <button class="cadastrar" type="button">Cadastrar</button>
       </span>
-    </nav>
+    </nav>  
     <section class="sectionBox">
       <p id="sectionBox01">Sobre nós</p>
       <p id="sectionBox02">Por que somos diferentes?</p>
@@ -130,12 +130,19 @@
         <img class="imagemDoDepoimento" src="./imagens/Avatar.png">
         <div class="nomeDoDepoente">Júlia Castro</div>
         <div class="cargoDoDepoente">Desenvolvedora Web</div>
-
       </section>
   </main>
 
   <footer>
-
+    <div class="containerFooter">
+      <h1 class="tituloDoFooter">Acompanhe as nossas oportunidades</h1>
+      <h2 class="subTituloDoFooter">Seja o primeiro a saber quando novas vagas serão abertas!</h2>
+      <form method="post" action="receber e-mail">
+        <input id="cadastramentoDeEmail" type="text" name="e-mail" placeholder="Seu e-mail">
+        <button class="cadastrar" type="submit">Cadastrar</button>
+      </form>
+      <span class="direitosReservados">© 2022 OptimusTech. Todos os direitos reservados.</span>
+    </div>
   </footer>
 </body>
 </html>
