@@ -1,10 +1,13 @@
 *{
   margin: 0;
   padding: 0;
+
 }
 
 body{
   background-color: #FFFFFF;
+  width: 100%;
+  height: 100vh;
 }
 
 .container{
@@ -83,7 +86,7 @@ a{
 #sectionBox02{
   margin-bottom: 36px;
   font-family: Inter;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
   line-height: 60px;
   letter-spacing: -0.02em;
@@ -93,7 +96,7 @@ a{
 
 #sectionBox03{
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 30px;
   text-align: center;
@@ -110,17 +113,17 @@ a{
   justify-content:space-between;
   justify-content:center;
   font-family: Inter;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 4.5rem;
   letter-spacing: -0.02em;
   color:#8E2424;
   
 }
 
 .numerosDasMetricas{
-  width: 280px;
-  height: 72px;
+  width: 17.5rem;
+  height: 4.5rem;
 }
 
 .textoPrincipalDasMetricas{
@@ -138,8 +141,8 @@ a{
 }
 
 .textoDasMetricas{
-  width: 280px;
-  height: 28px;
+  width: 17.5rem;
+  height: 1.75rem;
 }
 
 .subTextoPrincipalDasMetricas{
@@ -156,7 +159,7 @@ a{
 }
 
 .subTextoDasMetricas{
-  width: 280px;
+  width: 17.5rem;
 }
 
 .containerVagas{
@@ -199,10 +202,122 @@ text-align: center;
 color:#667085;
 margin-top: 1.25em;
 margin-bottom: 4rem;
-
 }
 
 #imagemDeVagas{
   width: 76rem;
   height: 25rem;
+}
+
+.containerDescriçãoDasVagas{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin-top: 4rem;
+}
+
+.descriçãoDaVaga{
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+  width: 48rem;
+  letter-spacing: 0em;
+  color: #101828;
+  margin-bottom: 2rem;
+}
+
+.containerDeDescrição{
+  width: 48rem;
+  height: 8.5rem;
+  border: 1px solid #EAECF0;
+  border-radius: 1rem;
+  padding:1.5rem 1.5rem 1.75rem 1.5rem;
+  
+}
+
+
+.descriçãoDoCargo{
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  letter-spacing: 0em;
+  width: 48rem;
+  margin-bottom: 2rem;
+  color:#101828;
+}
+
+.detalhesDoCargo{
+  margin-right: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 1,5rem;
+  color:#667085;
+
+}
+
+.containerCardDeDescriçãoDasVagas{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin-top:1.5rem;
+}
+
+.containerDeDepoimentos{
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width: 76rem;
+  height: 25.25rem;
+  border-radius: 1rem;
+  background-color: #C3191908;
+}
+
+.tituloDoDepoimento{
+  margin-top: 4rem;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  color:#8E2424;
+}
+
+.depoimento{
+  margin: 1rem 4rem 2rem 4rem;
+  font-family: Inter;
+  text-align:center;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 2.75rem;
+  letter-spacing: -0.02em;
+}
+ 
+.imagemDoDepoimento{
+  width: 3.5rem;
+}
+
+.nomeDoDepoente{
+  margin-top:1rem;
+  margin-bottom:0.25rem;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color:#101828;
+}
+
+.cargoDoDepoente{
+  margin-bottom: 4rem;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color:#667085;
+
 }
